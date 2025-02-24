@@ -138,6 +138,8 @@ $APPLICATION->IncludeComponent("bitrix:search.form", "flat", Array(
 					</div>
 				</div>
 
+                <?=$APPLICATION->ShowProperty('simplecomp_exam')?>
+
 				<div class="information-block">
 					<div class="top"></div>
 					<div class="information-block-inner">
@@ -155,4 +157,4 @@ $APPLICATION->IncludeFile(
 			</div>
 		
 			<div id="workarea">
-				<h1 id="pagetitle"><?$APPLICATION->ShowTitle(false);?></h1>
+				<h1 id="pagetitle"><?$APPLICATION->ShowTitle('h1');?></h1>
